@@ -32,17 +32,9 @@ class Main extends PluginBase implements Listener {
     private $db;
 	private $purePerms;
     public function onEnable(): void {
-		$this->getLogger()->info("
-		  _   _               _   _       
-		| \ | |             | \ | |      
-		|  \| | ___ _______ |  \| | __ _ 
-		| . ` |/ _ \_  / _ \| . ` |/ _` |
-		| |\  |  __// / (_) | |\  | (_| |
-		|_| \_|\___/___\___/|_| \_|\__,_|
-		");
 		
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-		$this->purePerms = $this->getServer()->getPluginManager()->getPlugin("PurePerms");
+	$this->purePerms = $this->getServer()->getPluginManager()->getPlugin("PurePerms");
         $commandMap = $this->getServer()->getCommandMap();
         $commandMap->unregister($commandMap->getCommand("sethome"));
         $commandMap->unregister($commandMap->getCommand("delhome"));
