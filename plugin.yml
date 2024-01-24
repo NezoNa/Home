@@ -1,0 +1,38 @@
+name: Home
+main: NezoNa\HomeTP\Main
+api: 5.0.0
+author: NezoNa
+version: 1.0
+description: Plugin for points for houses for Minecraft Badrock: PocketMine-MP
+
+commands:
+  sethome:
+    description: Set a point for teleportation home
+    usage: "/sethome <name>"
+    permission: h.sethome
+  home:
+    description: Teleporting home or viewing a list of houses
+    usage: "/home <name>"
+    permission: h.home
+  delhome:
+    description: Remove the teleportation point home
+    usage: "/delhome <name>"
+    permission: h.delhome
+  homes:
+    description: List of other players' houses and teleportation
+    usage: "/homes <name>"
+    permission: h.homes
+    
+permissions:
+  h.sethome:
+    description: Permission for the command /sethome
+    default: true
+  h.home:
+    description: Permission for the command /home
+    default: true
+  h.delhome:
+    description: Permission for the command /delhome
+    default: true
+  h.homes:
+    description: Permission for the command /homes
+    default: op
