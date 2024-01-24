@@ -1,6 +1,9 @@
 # Homes Plugin
 **Plugin for creating a point for a house for Minecraft Bedrock: PocketMine-MP, version 1.20.x, API 5**
 
+[![](https://poggit.pmmp.io/shield.state/Home)](https://poggit.pmmp.io/p/Home)
+<a href="https://poggit.pmmp.io/p/Home"><img src="https://poggit.pmmp.io/shield.state/Home"></a>
+
 **Commands:**
 
 *- /sethome: Set a point for teleportation home*
