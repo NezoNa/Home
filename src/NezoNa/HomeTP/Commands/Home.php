@@ -37,15 +37,16 @@ class Home extends Command {
             return;
         }
 		
-		if (count($args) < 1) {
-			$sender->sendMessage("§e*§r » §cReference usage /home <name> or /home");
-			return;
-		}
+	if (count($args) < 1) {
+		$sender->sendMessage("§e*§r » §cReference usage /home <name> or /home");
+		return;
+	}
 
-        if (empty($args)) {
-            $this->sendHomeList($sender);
-            return;
-        }
+	if (count($args) === 0) {
+	    $this->sendHomeList($sender);
+	    return;
+	}
+
 
         $name = strtolower($args[0]);
 
