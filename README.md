@@ -1,4 +1,4 @@
-# Home Plugin
+# Homes Plugin
 **Plugin for creating a point for a house for Minecraft Bedrock: PocketMine-MP, version 1.20.x, API 5**
 
 **Commands:**
