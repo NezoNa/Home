@@ -1,8 +1,8 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/NezoNa/HomeI
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/NezoNa/Home
 build-by-default: true
 branches:
 - master
 projects:
-  HomeI:
+  Home:
     path: ""
 ...
