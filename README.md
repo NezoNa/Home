@@ -3,8 +3,11 @@
 
 **Commands:**
 *- /sethome: Set a point for teleportation home*
+
 *- /home: Teleporting home or viewing a list of houses*
+
 *- /delhome: Remove the teleportation point home*
+
 *- /homes: List of other players' houses and teleportation*
 
 **Permissions:**
