@@ -1,5 +1,5 @@
 # Homes Plugin
-Plugin for creating a point for a house for Minecraft Bedrock: PocketMine-MP, version 1.20.x, API 5
+*Plugin for creating a point for a house for Minecraft Bedrock: PocketMine-MP, version 1.20.x, API 5. The plugin is integrated with the PurePerms plugin, which allows server owners to limit the creation of points at home and moderators to better deal with rule breakers.*
 
 [![](https://poggit.pmmp.io/shield.state/Home)](https://poggit.pmmp.io/p/Home)
 <a href="https://poggit.pmmp.io/p/Home"><img src="https://poggit.pmmp.io/shield.state/Home"></a>
@@ -24,4 +24,4 @@ Plugin for creating a point for a house for Minecraft Bedrock: PocketMine-MP, ve
 
 *h.homes: Permission for the command /homes*
 
-*The plugin is integrated with the PurePerms plugin, which allows server owners to limit the creation of points at home and moderators to better deal with rule breakers.*
+
