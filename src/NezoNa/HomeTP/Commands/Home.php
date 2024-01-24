@@ -42,10 +42,11 @@ class Home extends Command {
 		return;
 	}
 
-	if ((int)count($args) === 0) {
- 	   $this->sendHomeList($sender);
-	    return;
+	if (count($args) == 0) {
+  	  $this->sendHomeList($sender);
+ 	   return;
 	}
+
 
 
         $name = strtolower($args[0]);
