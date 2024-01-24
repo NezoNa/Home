@@ -42,8 +42,8 @@ class Home extends Command {
 		return;
 	}
 
-	if (count($args) === 0) {
-	    $this->sendHomeList($sender);
+	if ((int)count($args) === 0) {
+ 	   $this->sendHomeList($sender);
 	    return;
 	}
 
